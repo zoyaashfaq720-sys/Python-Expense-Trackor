@@ -13,8 +13,8 @@ while True:
     elif option == 2:
         print("\nYour expenses: \n",expenses)
     elif option == 3:
-        expenses = sum(expenses.values())
-        print("\nTotal spent: ",expenses)
+        total = sum(expenses.values())
+        print("\nTotal spent: ",total)
     elif option == 4:
         print("\nGoodbye")
         break
